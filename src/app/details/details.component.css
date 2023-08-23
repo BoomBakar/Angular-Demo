@@ -32,10 +32,8 @@ h2{
 
 .listing-photo{
     height: 400px;
-    width: 100%;
-    object-fit: contain;
-    position: absolute;
-    float:left;
+    width: 50%;
+    position: relative;
     border-radius: 30px 30px 0 0;
 
 }
@@ -99,4 +97,41 @@ h2{
     font-size: 20px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif; 
+}
+.apply{
+    padding-left: 40px;
+    color: var(--primary-color);
+    margin:0;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; 
+}
+.primary-button{
+    padding-left: 40px;
+    color: var(--primary-color);
+    margin:0;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; 
+    background-color: #605dc8;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-data {
+    /*write simple css for the form labels and fields */
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+    border-radius: 30px;
+    border-color: #2e29cc;
+
 }
